@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    color: inherit;
+}
+
+body {
+    background: url(../images/home/background-home-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    min-height: 100%;
+    width: 100%;
+}
+/* **************************************************************************************************************************** */
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 111px;
+}
+
+.col-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+}
+
+.main-content {
+    margin-top: 254px;
+    max-width: 450px;
+}
+
+.main-subtitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #D0D6F9;
+    letter-spacing: 4.72px;
+    margin-bottom: 24px;
+}
+
+.main-title {
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.text {
+    color: #D0D6F9;
+    line-height: 2em;
+}
+
+.main-text {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: regular;
+}
+
+.main-btn-layer {
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    border: none;
+    opacity: 0.2;
+    background-color: rgb(255, 255, 255);
+    display: none;
+}
+
+.main-btn-layer.active {
+    display: block;
+}
+.cursor-active {
+    cursor: pointer;
+}
+.main-btn {
+    color: #0B0D17;
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border: 0;
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+    color: hsl(0, 0%, 100%);
+}

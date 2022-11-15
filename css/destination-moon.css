@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    color: inherit;
+}
+
+body {
+    background: url(../images/destination/background-destination-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    min-height: 100%;
+    width: 100%;
+}
+/* **************************************************************************************************************************** */
+
+.main {
+    display: grid;
+    grid-template: auto 1fr/ 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 111px;
+}
+
+.main-subtitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 4.72px;
+    margin-top: 80px;
+}
+
+.subtitle-number {
+    color: rgba(255, 255, 255, 0.3);
+    margin-right: 0.5em;
+    font-weight: bold;
+}
+
+.row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.col-1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.col-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+} 
+
+.main-image {
+    width: 445px;
+    height: 445px;
+    margin-top: 97px;
+}
+
+.main-image-2, .main-image-3, .main-image-4 {
+    display: none;
+}
+
+.main-image img {
+    max-width: 100%;
+}
+
+.main-content {
+    width: 445px;
+    height: auto;
+}
+
+.nav-list-main {
+    gap: 2em;
+    height: 35px;
+    margin-bottom: 37px;
+    display: flex;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.nav-list-main a {
+    color: #D0D6F9;
+}
+
+.nav-list-main a:hover {
+    color: #fff;
+}
+
+.main-content .list-item:hover {
+    border-bottom: 3px solid #fff;
+    cursor: pointer;
+}
+
+.main-title {
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.main-title-2, .main-title-3, .main-title-4 {
+    display: none;
+}
+
+.main-text {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    margin-bottom: 54px;
+    font-weight: 400;
+    color: #D0D6F9;
+    line-height: 2em;
+}
+
+.main-text-2, .main-text-3, .main-text-4 {
+    display: none;
+}
+
+.hr-line-main {
+    background-color: #D0D6F9;
+    margin-bottom: 28px;
+    width: 100%;
+    border: none;
+    height: 1px;
+    opacity: 0.5;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.main-content-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-transform: uppercase;
+}
+
+.bottom-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2.36px;
+    color: #D0D6F9;
+    line-height: 2em;
+}
+
+.bottom-heading {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.distance-2, .distance-3, .distance-4 {
+    display: none;
+}
+
+.travel-time-2, .travel-time-3, .travel-time-4 {
+    display: none;
+}
+
+.attribution { 
+    font-size: 14px; 
+    text-align: center; 
+    color: hsl(0, 0%, 100%);
+}
+
+.active {
+    display: block;
+}
+
+.passive {
+    display: none;
+}
+
+.list-item.on a {
+    color: #fff;
+}

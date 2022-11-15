@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url(../images/technology/background-technology-desktop.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    min-height: 100%;
+    width: 100%;
+}
+/* **************************************************************************************************************************** */
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 515px;
+    margin: 59px 0 0 0;
+}
+.main__block {
+    display: flex;
+}
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.main__subtitle {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 4.72px;
+    margin-top: 19px;
+}
+.subtitle-number {
+    margin-right: 15px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.main__numbers {
+    margin: 111px 50px 0 0;
+}
+.main__number {
+    width: 79px;
+    height: 79px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    transition: all 0.3s;
+}
+.bg-white {
+    background-color: #fff;
+}
+.text-black {
+    color: #0B0D17;
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.main__content {
+    margin-top: 111px;
+}
+.content-name {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2.7px;
+    margin-bottom: 10px;
+}
+.main__title {
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.main__title-2 {
+    display: none;
+}
+.main__title-3 {
+    display: none;
+}
+.main__text {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 444px;
+}
+.main__text-2 {
+    display: none;
+}
+.main__text-3 {
+    display: none;
+}
+.main__image {
+    width: 515px;
+    height: 527px;
+    margin-top: 77px;
+}
+.main__image img {
+    max-width: 100%;
+}
+.image-mobile {
+    display: none;
+}
+.main__image-2 {
+    display: none;
+}
+.main__image-3 {
+    display: none;
+}
+
+.attribution {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.active {
+    display: block;
+}
+.passive {
+    display: none;
+}
+.on {
+    background-color: #fff;
+    color: #0B0D17;
+}
+.off {
+    background-color: default;
+    color: default;
+}
