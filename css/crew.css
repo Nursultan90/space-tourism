@@ -163,7 +163,7 @@ body {
 @media (max-width: 1023px) {
     body {
         padding: 0 0 0 40px;
-        background: url(/images/crew/background-crew-tablet.jpg) no-repeat;
+        background: url(../images/crew/background-crew-tablet.jpg) no-repeat;
         background-size: cover;
         background-position: center center;
     }
@@ -248,7 +248,7 @@ body {
 @media (max-width: 767px) {
     body {
         padding: 0 0 0 25px;
-        background: url(/images/crew/background-crew-mobile.jpg) no-repeat;
+        background: url(../images/crew/background-crew-mobile.jpg) no-repeat;
         background-size: cover;
         background-position: center top;
     }
